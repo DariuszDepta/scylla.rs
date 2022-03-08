@@ -1,0 +1,8 @@
+version: '3.2'
+
+services:
+  scylla:
+    image: scylladb/scylla:latest
+    container_name: scylla
+    ports:
+      - "127.0.0.1:9042:9042"
