@@ -5,6 +5,10 @@ publish = false
 edition = "2021"
 
 [dependencies]
-anyhow = "1.0.56"
+actix-cors = "0.6.1"
+actix-web = "4.0.1"
 scylla = "0.4.2"
+serde = "1.0.136"
+serde_derive = "1.0.136"
+serde_json = "1.0.79"
 tokio = {version = "1.17.0", features = ["full"]}
